@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainJuguetes {
+    background-image: url(/IMAGES/golden.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mainFarmacia {
+    background-image: url(/IMAGES/pexels-anel-rossouw-2558605.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#contacto {
+    background-image: url(/IMAGES/pexels-sebastian-coman-travel-3448793.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+}
+
+header {
+    /* background-color: #f8f9faff; */
+    background: linear-gradient(rgb(42, 42, 42), #c1c2c3);
+}
+
+.navbar-nav {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.d-block {
+    object-fit: cover;
+}
+
+#logo {
+    height: 12vh;
+}
+
+.carritoImage {
+    width: 50px;
+    height: 50px;
+    background-image: url(/IMAGES/carrito.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+}
+
+footer {
+    /* background-color: #f8f9fa; */
+    background: linear-gradient(#f8f9fa, rgb(42, 42, 42));
+}
+
+footer p {
+    font-weight: bold !important;
+    color: #212529ff !important;
+    font-size: 15px;
+}
+
+.imgFooter {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+#logoFooter {
+    max-height: 17vh;
+}
+
+
+/* contacto */
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.359);
+}
+
+.formulario fieldset {
+    padding: 0.5rem;
+}
+
+.mover-radio {
+    padding: 10rem;
+}
+
+label {
+    color: black;
+    font-weight: bolder;
+}
+
+.fieldsetPrimero {
+    display: flex;
+    justify-content: space-between;
+}
+
+fieldset p {
+    color: black;
+    font-weight: bolder;
+}
+
+legend {
+    color: black;
+    font-weight: bolder;
+}
+
+form {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.717);
+    border-radius: 5px;
+}
+
+iframe {
+    border-radius: 25px;
+}
+
+.tituloMap {
+    padding: 1rem;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px;
+    font-size: 30px;
+    border-radius: 30px;
+    color: rgb(25, 25, 25);
+    background-color: rgba(255, 255, 255, 0.518);
+}
+
+.tituloCont {
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px;
+    font-size: 30px;
+    color: rgb(25, 25, 25);
+    background-color: rgba(255, 255, 255, 0.518);
+}
+
+#comentarios {
+    resize: none;
+}
+
+.mainContacto {
+    min-height: 800px;
+}
+
+
+/* FARMACIA */
+
+.tituloFar {
+    padding: 2rem;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px;
+    font-size: 70px;
+    color: rgb(25, 25, 25);
+    background-color: rgba(239, 209, 42, 0.297);
+}
+
+.tituloJug {
+    padding: 2rem;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px;
+    font-size: 70px;
+    color: rgb(25, 25, 25);
+    background-color: rgba(255, 255, 255, 0.518);
+}
+
+.productos {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 2rem;
+    box-shadow: 5px 5px 5px;
+    width: 18rem;
+}
+
+.card:hover {
+    color: rgb(85, 74, 8);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(white, gray);
+}
+
+.card-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-text {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* CAROUSEL */
+
+.imgUno {
+    background-image: url("https://www.petshopposts.com/wp-content/uploads/2019/07/colores-schnauzer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.imgDos {
+    background-image: url("https://img.blogs.es/anexom/wp-content/uploads/2018/07/23815272238_77f1b41a56_k.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.imgTres {
+    background-image: url("https://mla-s2-p.mlstatic.com/D_NQ_NP_630544-MLA43364902483_092020-OO.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.carousel-caption {
+    font-size: 60px;
+    font-weight: bolder;
+    text-shadow: 5px 5px 9px black;
+}
+
+.carousel-caption h5 {
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+.ultimoP {
+    padding-top: 22rem;
+    font-size: 40px;
+}
+
+
+/*MAIN DETALLE*/
+
+.mainDetalle {
+    height: 100%;
+    background-image: url(/IMAGES/perroPlaya.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.texto-index {
+    text-align: center;
+    font-size: 35px;
+    border: 3px solid black;
+    padding: 1rem;
+    background-color: rgba(198, 197, 197, 0.33);
+    border-radius: 25px;
+}
+
+.contenedor-texto {
+    padding-top: 50px;
+}
