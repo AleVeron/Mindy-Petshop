@@ -20,6 +20,8 @@ function crearCartas(productos, idContenedor) {
     document.getElementById(idContenedor).innerHTML = templateCartas
 }
 
+console.log("test")
+
 function obtenerSeleccionados() {
     if (localStorage.getItem("seleccionados")) {
         const arraySeleccionados = JSON.parse(localStorage.getItem("seleccionados"))
